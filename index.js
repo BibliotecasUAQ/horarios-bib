@@ -31,7 +31,7 @@ const displayCharacters = (bibliotecas) => {
             <li class="biblio">
                 <h2>${biblio.biblioteca}</h2> 
                 <p>${biblio.dias} ${biblio.horario} </br>
-                ${biblio.extensión} </p>
+                ${biblio.extensión} </br> <span> ${biblio.correo} </span></p>
                 <img src="${biblio.imagen}"></img>
             </li>
         `;
